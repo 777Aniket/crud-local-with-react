@@ -25,7 +25,7 @@ import { deleteEmployee, getListOfEmployees } from "../styles/service/localStora
           >
             Edit
           </span>
-          <span className="badge bg-danger" role="button" onClick={()=>deleteEmployeeHandler}>
+          <span className="badge bg-danger" role="button" onClick={()=>deleteEmployeeHandler()}>
             Delete
           </span>
         </div>
